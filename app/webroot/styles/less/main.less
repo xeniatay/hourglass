@@ -1,0 +1,66 @@
+@import "../../bower_components/bootstrap/less/bootstrap.less";
+@import "variable-overrides.less";
+
+html, body {
+  height: 100%;
+  font-family: @font-family-base;
+}
+
+.main-container {
+  display: table;
+  padding: 20px;
+  height: 100%;
+  width: 100%;
+  background: url(/img/2.png);
+  background-size: cover;
+}
+
+.content-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.content {
+  max-width: 700px;
+  color: white;
+  opacity: 0.9;
+  margin: 0 auto;
+}
+
+.header {
+  height: 120px;
+}
+
+.title,
+.title small {
+  color: #F8E4F3;
+}
+
+.content-body {
+  background: #000;
+  opacity: 0.8;
+  padding: 10px 30px;
+}
+
+.stores {
+  font-size: 1.5em;
+}
+
+.store-info {
+  margin: 20px;
+}
+
+.store-name {
+  float: left;
+}
+
+.business-hours {
+  display: inline-block;
+  float: right;
+  opacity: 0.8;
+  margin-top: 12px;
+  vertical-align: middle;
+
+  .time {
+  }
+}

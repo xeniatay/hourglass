@@ -1,0 +1,53 @@
+// Pita Factory
+
+//http://www.pitafactory.com/images/Hours-1.gif
+
+{
+    "name": "Pita Pit",
+    "hours": {
+        "1": [
+            {
+                "open": "930",
+                "close": "0300"
+            }
+        ],
+        "2": [
+            {
+                "open": "930",
+                "close": "0300"
+            }
+        ],
+        "3": [
+            {
+                "open": "930",
+                "close": "0400"
+            }
+        ],
+        "4": [
+            {
+                "open": "930",
+                "close": "0400"
+            }
+        ],
+        "5": [
+            {
+                "open": "930",
+                "close": "0400"
+            }
+        ],
+        "6": [
+            {
+                "open": "1000",
+                "close": "0400"
+            }
+        ],
+        "7": [
+            {
+                "open": "1000",
+                "close": "0300"
+            }
+        ]
+    }
+}
+
+

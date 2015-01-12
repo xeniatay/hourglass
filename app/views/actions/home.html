@@ -1,0 +1,45 @@
+<div class="content-wrapper">
+  <span id="data" class="hidden">{{.}}</span>
+  <div class="content">
+    <header class="header">
+      <h1 class="title">Hourglass <small>(づ｡◕‿‿◕｡)づ</small></h1>
+      <em>What's open right now?</em>
+    </header>
+
+    <section class="content-body">
+      <h2>
+        <form class="form-horizontal">
+          <div class="form-group">
+            <label for="" class="col-sm-2 control-label">Time</label>
+            <div class="col-sm-10">
+              <div class='input-group date current-time' id='datetimepicker'>
+                <input type='text' class="form-control input-lg"/>
+                <span class="input-group-addon"><span class="glyphicon glyphicon-time"></span>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="" class="col-sm-2 control-label">Day</label>
+            <div class="col-sm-10">
+              <select class="form-control current-day input-lg">
+                <option class="1">Monday</option>
+                <option class="2">Tuesday</option>
+                <option class="3">Wednesday</option>
+                <option class="4">Thursday</option>
+                <option class="5">Friday</option>
+                <option class="6">Saturday</option>
+                <option class="7">Sunday</option>
+              </select>
+            </div>
+          </div>
+        </form>
+      </h2>
+
+      <hr>
+      <h2>Stores open:</h2>
+      <ul class="stores-open">
+      </ul>
+    </section>
+  </div>
+</div>

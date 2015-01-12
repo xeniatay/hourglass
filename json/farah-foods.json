@@ -1,0 +1,67 @@
+// Farah Foods
+
+// 170 University Avenue W.
+
+// University Plaza
+
+// Tel. 226.772.0021
+
+// Open 24 hours a day 7 days a week
+
+// In-store bakery and deli
+// Fresh sandwiches and salads
+// Fresh produce and meat
+// Cash machine
+// Full stationary department
+// Hardware, dishes, pots and pans, cutlery, etc...
+// Key cutting
+
+{
+    "name": "Farah Foods",
+    "hours": {
+        "1": [
+            {
+                "open": "0000",
+                "close": "2359"
+            }
+        ],
+        "2": [
+            {
+                "open": "0000",
+                "close": "2359"
+            }
+        ],
+        "3": [
+            {
+                "open": "0000",
+                "close": "2359"
+            }
+        ],
+        "4": [
+            {
+                "open": "0000",
+                "close": "2359"
+            }
+        ],
+        "5": [
+            {
+                "open": "0000",
+                "close": "2359"
+            }
+        ],
+        "6": [
+            {
+                "open": "0000",
+                "close": "2359"
+            }
+        ],
+        "7": [
+            {
+                "open": "0000",
+                "close": "2359"
+            }
+        ]
+    }
+}
+
+

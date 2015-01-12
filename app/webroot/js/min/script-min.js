@@ -1,0 +1,1 @@
+$(document).ready(function(){var a=$("#data").val();console.log(a)});
